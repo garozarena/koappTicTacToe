@@ -1,0 +1,13 @@
+{
+  "name": "koapp-tictactoe",
+  "authors": "",
+  "description": "",
+  "keywords": [
+    "kingofapp",
+    "module"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {}
+}

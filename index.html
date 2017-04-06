@@ -1,0 +1,38 @@
+<div class="module koapp-Tictactoe container" ng-controller="koappTictactoeController">
+
+  <div ng-show="gameBoard">
+      <div class="marker">
+    <h1 ng-hide="existWinner"><span translate>turn-indicator</span> <span ng-class="turnClass">{{ printTurn }}</span></h1>
+    <div ng-show="existWinner">
+      <h1 ng-show="tie"  translate> tie-indicator </h1>
+      <h1 ng-hide="tie"> <span translate> winner-indicator </span> <span ng-class="turnClass">{{ printTurn }}</span></h1>
+    </div>
+</div>
+    <table>
+      <tr>
+        <td ng-click="insertCard(0,0)" ng-class="gameBoard[0][0]"></td>
+        <td ng-click="insertCard(0,1)" ng-class="gameBoard[0][1]"></td>
+        <td ng-click="insertCard(0,2)" ng-class="gameBoard[0][2]"></td>
+      </tr>
+      <tr>
+        <td ng-click="insertCard(1,0)" ng-class="gameBoard[1][0]"></td>
+        <td ng-click="insertCard(1,1)" ng-class="gameBoard[1][1]"></td>
+        <td ng-click="insertCard(1,2)" ng-class="gameBoard[1][2]"></td>
+      </tr>
+      <tr>
+        <td ng-click="insertCard(2,0)" ng-class="gameBoard[2][0]"></td>
+        <td ng-click="insertCard(2,1)" ng-class="gameBoard[2][1]"></td>
+        <td ng-click="insertCard(2,2)" ng-class="gameBoard[2][2]"></td>
+      </tr>
+    </table>
+    <p class="player"><span class="player1" translate>player1-marker</span>: {{ points.player1 }} - {{ points.player2 }} :<span class="player2" translate>player2-marker</span></p>
+  </div>
+  <div class="buttonGroup">
+    <div ng-click="startGame()" class="boton">
+      <koa-button class="newGame" translate>new-game</koa-button>
+    </div>
+    <div ng-click="restartCount()" ng-show="gameBoard" class="boton">
+      <koa-button class="restartCount" translate>restart-count</koa-button>
+    </div>
+  </div>
+</div>

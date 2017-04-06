@@ -1,0 +1,9 @@
+{
+    "player1-marker" : "Jugador 1",
+    "player2-marker" : "Jugador 2",
+    "turn-indicator" : "Turno:",
+    "winner-indicator" : "Ganador:",
+    "tie-indicator" : "Empate",
+    "new-game"  : "Juego Nuevo",
+    "restart-count" : "Reiniciar Marcador"
+}

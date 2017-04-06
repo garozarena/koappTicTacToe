@@ -1,0 +1,50 @@
+{
+  "name": "koapp-tictactoe",
+  "identifier": "koapp-tictactoe",
+  "description": {
+    "es-ES": "",
+    "en-US": ""
+  },
+  "documentation": {
+    "es-ES": "modules/koapp-tictactoe/docs/es_ES.md",
+    "en-US": "modules/koapp-tictactoe/docs/en_US.md"
+  },
+  "descriptionShort": {
+    "es-ES": "",
+    "en-US": ""
+  },
+  "icon": "room",
+  "type": "A",
+  "version": "0.0.1",
+  "author": "",
+  "category": ["others"],
+  "price": 0,
+  "subscription": false,
+  "canContain": false,
+  "platforms": [
+    "android",
+    "ios",
+    "windows"
+  ],
+  "view": "modules/koapp-tictactoe/index.html",
+  "files": [
+    "modules/koapp-tictactoe/controller.js", "modules/koapp-tictactoe/style.html"
+  ],
+  "scope": {"demoKey": "demo text"},
+  "libs": [],
+  "config": [],
+  "showOn": {
+    "menu": true,
+    "market": true,
+    "dragDrop": true
+  },
+  "images": {
+    "list": "modules/koapp-tictactoe/images/list.png",
+    "screenshots": [
+      "modules/koapp-tictactoe/images/screenshot01.png"
+    ],
+    "popover": "modules/koapp-tictactoe/images/popover.png",
+    "banner": "modules/koapp-tictactoe/images/banner.png",
+    "logo": "modules/koapp-tictactoe/images/logo.png"
+  }
+}

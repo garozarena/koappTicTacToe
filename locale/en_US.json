@@ -1,0 +1,9 @@
+{
+    "player1-marker": "Player 1",
+    "player2-marker" : "Player 2",
+    "turn-indicator" : "Turn:",
+    "winner-indicator" : "Winner:",
+    "tie-indicator" : "Tie",
+    "new-game"  : "New Game",
+    "restart-count" : "Restart Counter"
+}

@@ -1,0 +1,90 @@
+<style is="custom-style">
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+}
+
+.buttonGroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.newGame{
+    background-color: var(--dark-primary-color);
+    color: var(--primary-background-color);
+}
+
+.boton{
+    padding-top: 20px;
+    max-width: calc(100% / 2.05)!important;
+    margin: auto 0 20px 0;
+}
+
+.restartCount{
+    background-color: var(--dark-accent-color);
+    color: var(--primary-background-color);
+}
+
+.player1{
+    color:var(--dark-accent-color);
+}
+.player2{
+    color:var(--dark-primary-color);
+}
+.void{
+    background-color: var(--divider-color);
+}
+.player2Turn{
+    background-color: var(--dark-primary-color);
+}
+.player1Turn{
+    background-color: var(--dark-accent-color);
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+h1, h2{
+    text-align: center;
+}
+td{
+    border-radius: 3px;
+    border: 10px solid var(--divider-color);
+    width: 100px;
+    height: 100px;
+}
+td:hover{
+    box-shadow: 0px 4px 7px grey;
+}
+.player{
+    border-radius:10px;
+    padding:10px;
+    box-shadow: 0px 4px 7px grey;
+}
+
+.marker{
+    border-radius:10px;
+    box-shadow: 0px 4px 7px grey;
+    margin-top:5px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 5px solid var(--secondary-text-color);
+}
+
+table {
+    border-spacing: 10px;
+    border: 8px solid var(--secondary-text-color);
+    border-radius: 10px;
+    box-shadow: 0px 4px 5px grey;
+}
+</style>
